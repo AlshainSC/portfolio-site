@@ -1,7 +1,11 @@
 export default function Projects() {
   return (
     <>
-      <div>Projects component</div>
+      <div className="container mx-auto py-12">
+        <section className="hero">
+          <h1>Projects page</h1>
+        </section>
+      </div>
     </>
   )
 }

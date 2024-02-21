@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 17, 24, 39;
-    --background-end-rgb: 17, 24, 39;
+    --background-start-rgb: 31, 41, 55;
+    --background-end-rgb: 24, 24, 27;
   }
 }
 
@@ -26,14 +26,18 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
 
 .top-divider,
 .bottom-divider {
   display: inline-block;
   position: relative;
+}
+
+a:hover {
+  cursor: pointer !important;
 }
